@@ -7,6 +7,7 @@ export class Book_Item extends React.Component{
         return (
     <div>
     <center>
+        //Importing Card from bootstrap
         <Card style={{ width: '18rem' }}>
         <Card.Header><h6>{this.props.book.title}</h6></Card.Header>
             <Card.Body>
